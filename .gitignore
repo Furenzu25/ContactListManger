@@ -1,3 +1,24 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.slnx
+**/FileContentIndex/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages
+packages/
+*.nupkg
+
 # Prerequisites
 *.d
 
@@ -53,3 +74,13 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
